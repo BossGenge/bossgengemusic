@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BossGenge Music</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+  <style>
+    /* CSS styles */
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #333333;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Add your additional CSS styles here */
+
+    /* Colors */
+    h1, h2, h3, h4, h5, h6 {
+      color: #333333;
+    }
+
+    a {
+      color: #666666;
+    }
+
+    /* IM and Social Media Logos */
+    .logo {
+      width: 30px;
+      height: 30px;
+      margin-right: 5px;
+    }
+
+    .im-logo {
+      fill: #333333;
+    }
+
+    .social-media-logo {
+      fill: #666666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BossGenge Music</h1>
+    <nav>
+      <ul>
+        <li><a href="#music">Music</a></li>
+        <li><a href="#checkout">Checkout</a></li>
+        <li><a href="#login">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="music">
+    <h2>Music</h2>
+    <!-- Music albums and tracks -->
+  </section>
+
+  <section id="checkout">
+    <h2>Checkout</h2>
+    <!-- Checkout process -->
+  </section>
+
+  <section id="login">
+    <h2>Login</h2>
+    <!-- Login form and registration -->
+  </section>
+
+  <section id="player">
+    <div id="player-container">
+      <div id="player-info">
+        <h3>Now Playing: <span id="current-song">Song Title</span></h3>
+        <p>Artist: <span id="current-artist">Artist Name</span></p>
+        <p>Album: <span id="current-album">Album Name</span></p>
+      </div>
+      <div id="player-controls">
+        <button id="prev-btn" onclick="prevTrack()">&lt;</button>
+        <button id="play-pause-btn" onclick="playPause()">Play</button>
+        <button id="next-btn" onclick="nextTrack()">&gt;</button>
+        <button id="shuffle-btn" onclick="toggleShuffle()"><i class="fas fa-random"></i></button>
+        <button id="repeat-btn" onclick="toggleRepeat()"><i class="fas fa-redo"></i></button>
+        <input type="range" id="volume-slider" min="0" max="100" onchange="adjustVolume(this.value)">
+      </div>
+    </div>
+    <div id="player-progress">
+      <div id="progress-bar"></div>
+    </div>
+  </section>
+
+  <section id="search">
+    <h2>Search</h2>
+    <!-- Search form and filtering options -->
+  </section>
+
+  <section id="recommendations">
+    <h2>Recommended Tracks</h2>
+    <!-- Recommended tracks -->
+  </section>
+
+  <section id="lyrics">
+    <h2>Lyrics</h2>
+    <!-- Lyrics display -->
+  </section>
+
+  <section id="artist-profile">
+    <h2>Artist Profile</h2>
+    <!-- Artist information and bio -->
+  </section>
+
+  <section id="community-engagement">
+    <h2>Community Engagement</h2>
+    <!-- User comments, likes, and shares -->
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+    // Add your JavaScript code for the features here
+
+    // Music Player Controls
+    function prevTrack() {
+      // Logic for playing the previous track
+    }
+
+    function playPause() {
+      // Logic for playing/pausing the current track
+    }
+
+    function nextTrack() {
+      // Logic for playing the next track
+    }
+
+    function toggleShuffle() {
+      // Logic for toggling shuffle mode
+    }
+
+    function toggleRepeat() {
+      // Logic for toggling repeat mode
+    }
+
+    function adjustVolume(value) {
+      // Logic for adjusting the volume
+    }
+
+    // Search Functionality
+    function search() {
+      // Logic for handling the search functionality
+    }
+
+    // Rest of your JavaScript code
+
+    // ...
+  </script>
+</body>
+</html>
